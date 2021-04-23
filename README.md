@@ -1,6 +1,6 @@
 # latlong-django
 
-SYHvyRGc8Jn73R692npkQknPgpWAimkJ
+
 
 Python-3.8x
 
@@ -23,3 +23,4 @@ Install Dependencies:
 
 -(env) $ 'py manage.py runserver'
 
+Note: Add api key from mail
