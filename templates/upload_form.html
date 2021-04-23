@@ -1,0 +1,25 @@
+}
+<!DOCTYPE html>
+{% extends 'base.html' %} {% load static %} {% block content %}
+<div class="container-fluid">
+  <div class="jumbotron">
+    <h1 align="center">Upload File With Names</h1>
+    <br /><br />
+    <form class="" enctype="multipart/form-data" method="POST">
+      {{form}} {% csrf_token %}
+
+      <input class="btn btn-success" type="submit" value="submit" />
+    </form>
+    {% for message in messages %}
+    <li class="{{ message.tags }}">{{ message }}</li>
+    {% endfor %}
+    <br /><br />
+    <b>Download File </b>
+    <a href="{{file_obj.excel_file.url}}" download="{{file_obj.excel_file.url}}"
+      ><button class="btn btn-info" type="button" name="button">
+        Download
+      </button></a
+    >
+  </div>
+</div>
+{% endblock %}
