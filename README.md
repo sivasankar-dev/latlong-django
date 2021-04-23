@@ -10,7 +10,7 @@ Django-2.x
 
 Clone Repository:
 
--$ '' ''
+-$ ''git@github.com:sivasankar-dev/latlong-django.git ''
 
 Set Up:
 
