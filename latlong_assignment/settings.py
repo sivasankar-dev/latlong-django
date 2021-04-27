@@ -18,7 +18,7 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 STATIC_DIR = os.path.join(BASE_DIR, "static")
 
 
-API_KEY = "****************************" 
+API_KEY = "SYHvyRGc8Jn73R692npkQknPgpWAimkJ" 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
